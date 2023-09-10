@@ -14,8 +14,8 @@ if (isset($slack_name) && isset($track)){
     'track'=> $track,
     'current_day'=> $day,
     'utc_time'=> $time,
-    'github_file_url'=> $slack_name,
-    'github_repo_url'=> $slack_name,
+    'github_file_url'=> 'https://github.com/Lanrey007/hng10/first.php',
+    'github_repo_url'=> 'https://github.com/Lanrey007/hng10',
     'status_code'=> 200,
     );
 echo json_encode($response); 
@@ -23,8 +23,8 @@ echo json_encode($response);
     $response=array(
     'current_day'=> $day,
     'utc_time'=> $time,
-    'github_file_url'=> $slack_name,
-    'github_repo_url'=> $slack_name,
+    'github_file_url'=> 'https://github.com/Lanrey007/hng10/first.php',
+    'github_repo_url'=> 'https://github.com/Lanrey007/hng10',
     'status_code'=> 404,
     );
 echo json_encode($response);
